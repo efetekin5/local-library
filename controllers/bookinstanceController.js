@@ -39,6 +39,7 @@ exports.bookinstance_create_get = asyncHandler(async (req, res, next) => {
   res.render("bookinstance_form", {
     title: "Create BookInstance",
     book_list: allBooks,
+    bookinstance: undefined,
   });
 });
 
